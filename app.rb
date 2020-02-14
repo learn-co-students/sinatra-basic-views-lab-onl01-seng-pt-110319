@@ -5,8 +5,4 @@ class App < Sinatra::Base
 get '/' do
      erb :index
    end
-
-get '/tagline' do
-     erb :tagline
-   end
 end
